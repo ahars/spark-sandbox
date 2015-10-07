@@ -1,6 +1,5 @@
 package com.ahars.babies
 
-import java.sql.DriverManager
 import java.util.Properties
 
 import org.apache.spark.sql.{Row, SQLContext}
