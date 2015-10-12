@@ -6,7 +6,7 @@ import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.sql.types.{DataTypes, StructField, StructType}
 
-object C_WriteDataframeBabiesJDBC {
+object C_WriteDataframeBabiesJDBCIntoH2 {
 
   def main(args: Array[String]) {
 

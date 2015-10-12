@@ -9,7 +9,8 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <h2Driver.version>1.4.189</h2Driver.version>
+        <h2-driver.version>1.4.189</h2-driver.version>
+        <mysql-driver.version>5.1.36</mysql-driver.version>
         <scala.version>2.10.6</scala.version>
         <spark.version>1.5.1</spark.version>
         <spark-csv.version>1.2.0</spark-csv.version>
@@ -40,8 +41,14 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>${h2Driver.version}</version>
+            <version>${h2-driver.version}</version>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-driver.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
