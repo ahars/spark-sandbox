@@ -9,6 +9,7 @@ import org.apache.spark.sql.types.{DataTypes, StructField, StructType}
 object C_WriteDataframeBabiesJDBCIntoMysql {
 
   def main(args: Array[String]) {
+
     // Configuration de la connexion à la database
     val url = "jdbc:mysql://localhost:3306/sandbox"
     val prop = new Properties()
