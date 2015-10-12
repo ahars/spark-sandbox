@@ -31,7 +31,7 @@ object C_WriteDataframeBabiesJDBCIntoH2 {
 
     // Configuration de Spark
     val conf = new SparkConf()
-      .setAppName("queries-on-dataframe-babies")
+      .setAppName("write-dataframe-babies-into-h2")
       .setMaster("local")
     val sc = new SparkContext(conf)
     val sqlc = new SQLContext(sc)

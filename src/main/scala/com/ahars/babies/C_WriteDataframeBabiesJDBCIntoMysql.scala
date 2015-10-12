@@ -30,7 +30,7 @@ object C_WriteDataframeBabiesJDBCIntoMysql {
 
     // Configuration de Spark
     val conf = new SparkConf()
-      .setAppName("queries-on-dataframe-babies")
+      .setAppName("write-dataframe-babies-into-mysql")
       .setMaster("local")
     val sc = new SparkContext(conf)
     val sqlc = new SQLContext(sc)
